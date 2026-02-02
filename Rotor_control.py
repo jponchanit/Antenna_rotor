@@ -91,7 +91,7 @@ class RotorGUI(tk.Tk):
         self.geometry("1100x800")
 
         self.rotctld = None
-        self.config_file = "rotor_config.json"
+        self.config_file = "rotor_comfig.json"
 
         self.config_data = self.load_config()
 
@@ -239,4 +239,5 @@ class RotorGUI(tk.Tk):
 
 if __name__ == "__main__":
     app = RotorGUI()
+
     app.mainloop()
